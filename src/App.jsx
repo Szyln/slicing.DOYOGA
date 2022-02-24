@@ -1,45 +1,34 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Nav from "./component/Nav";
+import Footer from "./component/Footer";
+import Homepage from "./page/Homepage";
+import Schedule from "./page/Schedule";
+import Space from "./page/Space";
+import Course from "./page/Course";
+import Plans from "./page/Plans";
 
-function App() {
-  const [count, setCount] = useState(0)
+import "../node_modules/bootstrap/dist/js/bootstrap.esm";
+import "../src/style/all.css";
 
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.jsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
+    <>
+      <header>
+        <Nav />
       </header>
-    </div>
-  )
-}
+      <main>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/space" element={<Space />} />
+          <Route path="/schedule" element={<Schedule />} />
+          <Route path="/course" element={<Course />} />
+          <Route path="/plans" element={<Plans />} />
+        </Routes>
+      </main>
+      <Footer />
+    </>
+  );
+};
 
-export default App
+export default App;

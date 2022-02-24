@@ -327,7 +327,7 @@ kbd {
   font-size: 0.875em;
   color: #fff;
   background-color: #212529;
-  border-radius: 0.2rem;
+  border-radius: 4.8px;
 }
 
 /* line 324, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_reboot.scss */
@@ -720,7 +720,7 @@ progress {
   padding: 0.25rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
+  border-radius: 1rem;
   max-width: 100%;
   height: auto;
 }
@@ -2154,7 +2154,7 @@ progress {
   margin-bottom: 1rem;
   color: #212529;
   vertical-align: top;
-  border-color: #dee2e6;
+  border-color: #C0A4A5;
 }
 
 /* line 26, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_tables.scss */
@@ -2424,9 +2424,9 @@ progress {
   color: #212529;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid #C0A4A5;
   appearance: none;
-  border-radius: 0.25rem;
+  border-radius: 4.8px;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -2463,7 +2463,7 @@ progress {
 
 /* line 56, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/forms/_form-control.scss */
 .form-control::placeholder {
-  color: #6c757d;
+  color: #907A7B;
   opacity: 1;
 }
 
@@ -2553,7 +2553,7 @@ progress {
   min-height: calc(1.5em + 0.5rem + 2px);
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
-  border-radius: 0.2rem;
+  border-radius: 4px;
 }
 
 /* line 151, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/forms/_form-control.scss */
@@ -2575,7 +2575,7 @@ progress {
   min-height: calc(1.5em + 1rem + 2px);
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
-  border-radius: 0.3rem;
+  border-radius: 1rem;
 }
 
 /* line 170, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/forms/_form-control.scss */
@@ -2622,13 +2622,13 @@ textarea.form-control-lg {
 /* line 210, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/forms/_form-control.scss */
 .form-control-color::-moz-color-swatch {
   height: 1.5em;
-  border-radius: 0.25rem;
+  border-radius: 4.8px;
 }
 
 /* line 215, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/forms/_form-control.scss */
 .form-control-color::-webkit-color-swatch {
   height: 1.5em;
-  border-radius: 0.25rem;
+  border-radius: 4.8px;
 }
 
 /* line 6, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/forms/_form-select.scss */
@@ -2646,8 +2646,8 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
   background-size: 16px 12px;
-  border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  border: 1px solid #C0A4A5;
+  border-radius: 4.8px;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
 }
@@ -2689,7 +2689,7 @@ textarea.form-control-lg {
   padding-bottom: 0.25rem;
   padding-left: 0.5rem;
   font-size: 0.875rem;
-  border-radius: 0.2rem;
+  border-radius: 4px;
 }
 
 /* line 66, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/forms/_form-select.scss */
@@ -2698,7 +2698,7 @@ textarea.form-control-lg {
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   font-size: 1.25rem;
-  border-radius: 0.3rem;
+  border-radius: 1rem;
 }
 
 /* line 5, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/forms/_form-check.scss */
@@ -3074,8 +3074,8 @@ textarea.form-control-lg {
   text-align: center;
   white-space: nowrap;
   background-color: #e9ecef;
-  border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  border: 1px solid #C0A4A5;
+  border-radius: 4.8px;
 }
 
 /* line 66, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/forms/_input-group.scss */
@@ -3085,7 +3085,7 @@ textarea.form-control-lg {
 .input-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
-  border-radius: 0.3rem;
+  border-radius: 1rem;
 }
 
 /* line 75, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/forms/_input-group.scss */
@@ -3095,7 +3095,7 @@ textarea.form-control-lg {
 .input-group-sm > .btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
-  border-radius: 0.2rem;
+  border-radius: 4px;
 }
 
 /* line 84, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/forms/_input-group.scss */
@@ -3146,7 +3146,7 @@ textarea.form-control-lg {
   font-size: 0.875rem;
   color: #fff;
   background-color: rgba(25, 135, 84, 0.9);
-  border-radius: 0.25rem;
+  border-radius: 1rem;
 }
 
 /* line 51, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_forms.scss */
@@ -3258,7 +3258,7 @@ textarea.form-control-lg {
   font-size: 0.875rem;
   color: #fff;
   background-color: rgba(220, 53, 69, 0.9);
-  border-radius: 0.25rem;
+  border-radius: 1rem;
 }
 
 /* line 51, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_forms.scss */
@@ -3364,7 +3364,7 @@ textarea.form-control-lg {
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
-  border-radius: 0.25rem;
+  border-radius: 4.8px;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -4244,14 +4244,14 @@ fieldset:disabled .btn {
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
-  border-radius: 0.3rem;
+  border-radius: 1rem;
 }
 
 /* line 109, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_buttons.scss */
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
-  border-radius: 0.2rem;
+  border-radius: 4.8px;
 }
 
 /* line 1, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_transitions.scss */
@@ -4349,7 +4349,7 @@ fieldset:disabled .btn {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem;
+  border-radius: 1rem;
 }
 
 /* line 34, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_dropdown.scss */
@@ -4868,8 +4868,8 @@ fieldset:disabled .btn {
   margin-bottom: -1px;
   background: none;
   border: 1px solid transparent;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
 /* line 50, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_nav.scss */
@@ -4904,7 +4904,7 @@ fieldset:disabled .btn {
 .nav-pills .nav-link {
   background: none;
   border: 0;
-  border-radius: 0.25rem;
+  border-radius: 1rem;
 }
 
 /* line 91, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_nav.scss */
@@ -5015,7 +5015,7 @@ fieldset:disabled .btn {
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
-  border-radius: 0.25rem;
+  border-radius: 4.8px;
   transition: box-shadow 0.15s ease-in-out;
 }
 
@@ -5571,7 +5571,7 @@ fieldset:disabled .btn {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border-radius: 1rem;
 }
 
 /* line 18, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_card.scss */
@@ -5589,15 +5589,15 @@ fieldset:disabled .btn {
 /* line 27, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_card.scss */
 .card > .list-group:first-child {
   border-top-width: 0;
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
+  border-top-left-radius: calc(1rem - 1px);
+  border-top-right-radius: calc(1rem - 1px);
 }
 
 /* line 32, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_card.scss */
 .card > .list-group:last-child {
   border-bottom-width: 0;
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px);
+  border-bottom-right-radius: calc(1rem - 1px);
+  border-bottom-left-radius: calc(1rem - 1px);
 }
 
 /* line 40, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_card.scss */
@@ -5643,7 +5643,7 @@ fieldset:disabled .btn {
 
 /* line 88, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_card.scss */
 .card-header:first-child {
-  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+  border-radius: calc(1rem - 1px) calc(1rem - 1px) 0 0;
 }
 
 /* line 93, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_card.scss */
@@ -5655,7 +5655,7 @@ fieldset:disabled .btn {
 
 /* line 99, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_card.scss */
 .card-footer:last-child {
-  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+  border-radius: 0 0 calc(1rem - 1px) calc(1rem - 1px);
 }
 
 /* line 109, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_card.scss */
@@ -5680,7 +5680,7 @@ fieldset:disabled .btn {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  border-radius: calc(0.25rem - 1px);
+  border-radius: calc(1rem - 1px);
 }
 
 /* line 139, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_card.scss */
@@ -5693,15 +5693,15 @@ fieldset:disabled .btn {
 /* line 145, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_card.scss */
 .card-img,
 .card-img-top {
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
+  border-top-left-radius: calc(1rem - 1px);
+  border-top-right-radius: calc(1rem - 1px);
 }
 
 /* line 150, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_card.scss */
 .card-img,
 .card-img-bottom {
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px);
+  border-bottom-right-radius: calc(1rem - 1px);
+  border-bottom-left-radius: calc(1rem - 1px);
 }
 
 /* line 163, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_card.scss */
@@ -5840,14 +5840,14 @@ fieldset:disabled .btn {
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_accordion.scss */
 .accordion-item:first-of-type {
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
 /* line 67, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_accordion.scss */
 .accordion-item:first-of-type .accordion-button {
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
+  border-top-left-radius: calc(1rem - 1px);
+  border-top-right-radius: calc(1rem - 1px);
 }
 
 /* line 72, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_accordion.scss */
@@ -5857,20 +5857,20 @@ fieldset:disabled .btn {
 
 /* line 77, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_accordion.scss */
 .accordion-item:last-of-type {
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 
 /* line 81, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_accordion.scss */
 .accordion-item:last-of-type .accordion-button.collapsed {
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px);
+  border-bottom-right-radius: calc(1rem - 1px);
+  border-bottom-left-radius: calc(1rem - 1px);
 }
 
 /* line 86, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_accordion.scss */
 .accordion-item:last-of-type .accordion-collapse {
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 
 /* line 92, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_accordion.scss */
@@ -6002,14 +6002,14 @@ fieldset:disabled .btn {
 
 /* line 13, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_pagination.scss */
 .page-item:first-child .page-link {
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 
 /* line 19, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_pagination.scss */
 .page-item:last-child .page-link {
-  border-top-right-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 /* line 5, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_pagination.scss */
@@ -6020,14 +6020,14 @@ fieldset:disabled .btn {
 
 /* line 13, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_pagination.scss */
 .pagination-lg .page-item:first-child .page-link {
-  border-top-left-radius: 0.3rem;
-  border-bottom-left-radius: 0.3rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 
 /* line 19, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_pagination.scss */
 .pagination-lg .page-item:last-child .page-link {
-  border-top-right-radius: 0.3rem;
-  border-bottom-right-radius: 0.3rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 /* line 5, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_pagination.scss */
@@ -6038,14 +6038,14 @@ fieldset:disabled .btn {
 
 /* line 13, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_pagination.scss */
 .pagination-sm .page-item:first-child .page-link {
-  border-top-left-radius: 0.2rem;
-  border-bottom-left-radius: 0.2rem;
+  border-top-left-radius: 4.8px;
+  border-bottom-left-radius: 4.8px;
 }
 
 /* line 19, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_pagination.scss */
 .pagination-sm .page-item:last-child .page-link {
-  border-top-right-radius: 0.2rem;
-  border-bottom-right-radius: 0.2rem;
+  border-top-right-radius: 4.8px;
+  border-bottom-right-radius: 4.8px;
 }
 
 /* line 6, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_badge.scss */
@@ -6059,7 +6059,7 @@ fieldset:disabled .btn {
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: 0.25rem;
+  border-radius: 1rem;
 }
 
 /* line 20, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_badge.scss */
@@ -6079,7 +6079,7 @@ fieldset:disabled .btn {
   padding: 1rem 1rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
-  border-radius: 0.25rem;
+  border-radius: 1rem;
 }
 
 /* line 14, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_alert.scss */
@@ -6239,7 +6239,7 @@ fieldset:disabled .btn {
   overflow: hidden;
   font-size: 0.75rem;
   background-color: #e9ecef;
-  border-radius: 0.25rem;
+  border-radius: 1rem;
 }
 
 /* line 21, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_progress.scss */
@@ -6286,7 +6286,7 @@ fieldset:disabled .btn {
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
-  border-radius: 0.25rem;
+  border-radius: 1rem;
 }
 
 /* line 15, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_list-group.scss */
@@ -6378,13 +6378,13 @@ fieldset:disabled .btn {
 
 /* line 112, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_list-group.scss */
 .list-group-horizontal > .list-group-item:first-child {
-  border-bottom-left-radius: 0.25rem;
+  border-bottom-left-radius: 1rem;
   border-top-right-radius: 0;
 }
 
 /* line 117, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_list-group.scss */
 .list-group-horizontal > .list-group-item:last-child {
-  border-top-right-radius: 0.25rem;
+  border-top-right-radius: 1rem;
   border-bottom-left-radius: 0;
 }
 
@@ -6412,12 +6412,12 @@ fieldset:disabled .btn {
   }
   /* line 112, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_list-group.scss */
   .list-group-horizontal-sm > .list-group-item:first-child {
-    border-bottom-left-radius: 0.25rem;
+    border-bottom-left-radius: 1rem;
     border-top-right-radius: 0;
   }
   /* line 117, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_list-group.scss */
   .list-group-horizontal-sm > .list-group-item:last-child {
-    border-top-right-radius: 0.25rem;
+    border-top-right-radius: 1rem;
     border-bottom-left-radius: 0;
   }
   /* line 122, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_list-group.scss */
@@ -6443,12 +6443,12 @@ fieldset:disabled .btn {
   }
   /* line 112, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_list-group.scss */
   .list-group-horizontal-md > .list-group-item:first-child {
-    border-bottom-left-radius: 0.25rem;
+    border-bottom-left-radius: 1rem;
     border-top-right-radius: 0;
   }
   /* line 117, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_list-group.scss */
   .list-group-horizontal-md > .list-group-item:last-child {
-    border-top-right-radius: 0.25rem;
+    border-top-right-radius: 1rem;
     border-bottom-left-radius: 0;
   }
   /* line 122, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_list-group.scss */
@@ -6474,12 +6474,12 @@ fieldset:disabled .btn {
   }
   /* line 112, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_list-group.scss */
   .list-group-horizontal-lg > .list-group-item:first-child {
-    border-bottom-left-radius: 0.25rem;
+    border-bottom-left-radius: 1rem;
     border-top-right-radius: 0;
   }
   /* line 117, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_list-group.scss */
   .list-group-horizontal-lg > .list-group-item:last-child {
-    border-top-right-radius: 0.25rem;
+    border-top-right-radius: 1rem;
     border-bottom-left-radius: 0;
   }
   /* line 122, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_list-group.scss */
@@ -6505,12 +6505,12 @@ fieldset:disabled .btn {
   }
   /* line 112, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_list-group.scss */
   .list-group-horizontal-xl > .list-group-item:first-child {
-    border-bottom-left-radius: 0.25rem;
+    border-bottom-left-radius: 1rem;
     border-top-right-radius: 0;
   }
   /* line 117, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_list-group.scss */
   .list-group-horizontal-xl > .list-group-item:last-child {
-    border-top-right-radius: 0.25rem;
+    border-top-right-radius: 1rem;
     border-bottom-left-radius: 0;
   }
   /* line 122, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_list-group.scss */
@@ -6536,12 +6536,12 @@ fieldset:disabled .btn {
   }
   /* line 112, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_list-group.scss */
   .list-group-horizontal-xxl > .list-group-item:first-child {
-    border-bottom-left-radius: 0.25rem;
+    border-bottom-left-radius: 1rem;
     border-top-right-radius: 0;
   }
   /* line 117, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_list-group.scss */
   .list-group-horizontal-xxl > .list-group-item:last-child {
-    border-top-right-radius: 0.25rem;
+    border-top-right-radius: 1rem;
     border-bottom-left-radius: 0;
   }
   /* line 122, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_list-group.scss */
@@ -6774,7 +6774,7 @@ fieldset:disabled .btn {
   color: #000;
   background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
   border: 0;
-  border-radius: 0.25rem;
+  border-radius: 1rem;
   opacity: 0.5;
 }
 
@@ -6814,7 +6814,7 @@ fieldset:disabled .btn {
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem;
+  border-radius: 1rem;
 }
 
 /* line 13, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_toasts.scss */
@@ -6848,8 +6848,8 @@ fieldset:disabled .btn {
   background-color: rgba(255, 255, 255, 0.85);
   background-clip: padding-box;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
+  border-top-left-radius: calc(1rem - 1px);
+  border-top-right-radius: calc(1rem - 1px);
 }
 
 /* line 42, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_toasts.scss */
@@ -6942,7 +6942,7 @@ fieldset:disabled .btn {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
+  border-radius: 1rem;
   outline: 0;
 }
 
@@ -6974,9 +6974,9 @@ fieldset:disabled .btn {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1rem;
-  border-bottom: 1px solid #dee2e6;
-  border-top-left-radius: calc(0.3rem - 1px);
-  border-top-right-radius: calc(0.3rem - 1px);
+  border-bottom: 1px solid #C0A4A5;
+  border-top-left-radius: calc(1rem - 1px);
+  border-top-right-radius: calc(1rem - 1px);
 }
 
 /* line 102, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_modal.scss */
@@ -7006,9 +7006,9 @@ fieldset:disabled .btn {
   align-items: center;
   justify-content: flex-end;
   padding: 0.75rem;
-  border-top: 1px solid #dee2e6;
-  border-bottom-right-radius: calc(0.3rem - 1px);
-  border-bottom-left-radius: calc(0.3rem - 1px);
+  border-top: 1px solid #C0A4A5;
+  border-bottom-right-radius: calc(1rem - 1px);
+  border-bottom-left-radius: calc(1rem - 1px);
 }
 
 /* line 138, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_modal.scss */
@@ -7346,7 +7346,7 @@ fieldset:disabled .btn {
   color: #fff;
   text-align: center;
   background-color: #000;
-  border-radius: 0.25rem;
+  border-radius: 1rem;
 }
 
 /* line 1, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_popover.scss */
@@ -7376,7 +7376,7 @@ fieldset:disabled .btn {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
+  border-radius: 1rem;
 }
 
 /* line 20, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_popover.scss */
@@ -7495,8 +7495,8 @@ fieldset:disabled .btn {
   font-size: 1rem;
   background-color: #f0f0f0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  border-top-left-radius: calc(0.3rem - 1px);
-  border-top-right-radius: calc(0.3rem - 1px);
+  border-top-left-radius: calc(1rem - 1px);
+  border-top-right-radius: calc(1rem - 1px);
 }
 
 /* line 150, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/_popover.scss */
@@ -8528,7 +8528,7 @@ fieldset:disabled .btn {
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .border {
-  border: 1px solid #dee2e6 !important;
+  border: 1px solid #C0A4A5 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
@@ -8538,7 +8538,7 @@ fieldset:disabled .btn {
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .border-top {
-  border-top: 1px solid #dee2e6 !important;
+  border-top: 1px solid #C0A4A5 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
@@ -8548,7 +8548,7 @@ fieldset:disabled .btn {
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .border-end {
-  border-right: 1px solid #dee2e6 !important;
+  border-right: 1px solid #C0A4A5 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
@@ -8558,7 +8558,7 @@ fieldset:disabled .btn {
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .border-bottom {
-  border-bottom: 1px solid #dee2e6 !important;
+  border-bottom: 1px solid #C0A4A5 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
@@ -8568,7 +8568,7 @@ fieldset:disabled .btn {
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .border-start {
-  border-left: 1px solid #dee2e6 !important;
+  border-left: 1px solid #C0A4A5 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
@@ -9617,91 +9617,81 @@ fieldset:disabled .btn {
 /* rtl:end:remove */
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .text-primary {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #907A7B !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .text-secondary {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color: #C0A4A5 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .text-success {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
+  color: #198754 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .text-info {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-info-rgb), var(--bs-text-opacity)) !important;
+  color: #0dcaf0 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .text-warning {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-warning-rgb), var(--bs-text-opacity)) !important;
+  color: #ffc107 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .text-danger {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
+  color: #dc3545 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .text-light {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
+  color: #f8f9fa !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .text-dark {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+  color: #212529 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
-.text-black {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+.text-primary-dark {
+  color: #707070 !important;
+}
+
+/* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
+.text-secondary-light {
+  color: #f5f0e7 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .text-white {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  color: #fff !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .text-body {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
+  color: #212529 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .text-muted {
-  --bs-text-opacity: 1;
   color: #6c757d !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .text-black-50 {
-  --bs-text-opacity: 1;
   color: rgba(0, 0, 0, 0.5) !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .text-white-50 {
-  --bs-text-opacity: 1;
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .text-reset {
-  --bs-text-opacity: 1;
   color: inherit !important;
 }
 
@@ -9727,73 +9717,66 @@ fieldset:disabled .btn {
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .bg-primary {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #907A7B !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .bg-secondary {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #C0A4A5 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .bg-success {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #198754 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .bg-info {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #0dcaf0 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .bg-warning {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #ffc107 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .bg-danger {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #dc3545 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .bg-light {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #f8f9fa !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .bg-dark {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #212529 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
-.bg-black {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+.bg-primary-dark {
+  background-color: #707070 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
-.bg-white {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+.bg-secondary-light {
+  background-color: #f5f0e7 !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .bg-body {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-body-bg-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #fff !important;
+}
+
+/* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
+.bg-white {
+  background-color: #fff !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .bg-transparent {
-  --bs-bg-opacity: 1;
   background-color: transparent !important;
 }
 
@@ -9854,7 +9837,7 @@ fieldset:disabled .btn {
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .rounded {
-  border-radius: 0.25rem !important;
+  border-radius: 1rem !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
@@ -9864,17 +9847,17 @@ fieldset:disabled .btn {
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .rounded-1 {
-  border-radius: 0.2rem !important;
+  border-radius: 4.8px !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .rounded-2 {
-  border-radius: 0.25rem !important;
+  border-radius: 1rem !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .rounded-3 {
-  border-radius: 0.3rem !important;
+  border-radius: 1rem !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
@@ -9889,26 +9872,26 @@ fieldset:disabled .btn {
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .rounded-top {
-  border-top-left-radius: 0.25rem !important;
-  border-top-right-radius: 0.25rem !important;
+  border-top-left-radius: 1rem !important;
+  border-top-right-radius: 1rem !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .rounded-end {
-  border-top-right-radius: 0.25rem !important;
-  border-bottom-right-radius: 0.25rem !important;
+  border-top-right-radius: 1rem !important;
+  border-bottom-right-radius: 1rem !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .rounded-bottom {
-  border-bottom-right-radius: 0.25rem !important;
-  border-bottom-left-radius: 0.25rem !important;
+  border-bottom-right-radius: 1rem !important;
+  border-bottom-left-radius: 1rem !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .rounded-start {
-  border-bottom-left-radius: 0.25rem !important;
-  border-top-left-radius: 0.25rem !important;
+  border-bottom-left-radius: 1rem !important;
+  border-top-left-radius: 1rem !important;
 }
 
 /* line 64, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/node_modules/bootstrap/scss/mixins/_utilities.scss */
@@ -13246,6 +13229,81 @@ fieldset:disabled .btn {
   .d-print-none {
     display: none !important;
   }
+}
+
+/* line 2, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/src/style/scss/helpers/_color.scss */
+.btn-primary {
+  color: white;
+}
+
+/* line 6, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/src/style/scss/helpers/_color.scss */
+.btn-secondary {
+  color: white;
+}
+
+/* line 10, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/src/style/scss/helpers/_color.scss */
+.btn-secondary-light {
+  color: #707070;
+}
+
+/* line 14, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/src/style/scss/helpers/_color.scss */
+.btn-outline-primary:hover {
+  color: white;
+}
+
+/* line 1, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/src/style/scss/helpers/_background.scss */
+.bg-homepage-banner {
+  background: scroll url("../../../../src/image/photo-1612157777902-5382bc6e864b.jpeg") center bottom/cover no-repeat;
+  height: 100vh;
+}
+
+/* line 1, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/src/style/scss/helpers/_border.scss */
+.border-width-sm {
+  border-width: 0.5px;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  /* line 2, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/src/style/scss/helpers/_radius.scss */
+  .rounded-only-md-lg-start {
+    border-radius: 1rem 0 0 1rem !important;
+  }
+}
+
+/* line 1, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/src/style/scss/helpers/_flexbox.scss */
+.basis-100 {
+  flex-basis: 100%;
+}
+
+/* line 4, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/src/style/scss/helpers/_flexbox.scss */
+.basis-33 {
+  flex-basis: 33.3%;
+}
+
+/* line 7, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/src/style/scss/helpers/_flexbox.scss */
+.basis-100 {
+  flex-basis: 100%;
+}
+
+@media (min-width: 576px) {
+  /* line 10, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/src/style/scss/helpers/_flexbox.scss */
+  .basis-sm-auto {
+    flex-basis: auto;
+  }
+}
+
+/* line 1, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/src/style/scss/helpers/_image.scss */
+.fit-cover {
+  object-fit: cover;
+}
+
+/* line 1, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/src/style/scss/helpers/_overflow.scss */
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+
+/* line 1, ../../../../../Users/sz/不同步資料/前端程式碼集中/wilson/ReactProject/doyoga/src/style/scss/base/_base.scss */
+img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=all.css.map */
