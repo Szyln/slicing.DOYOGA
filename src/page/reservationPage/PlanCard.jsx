@@ -21,7 +21,7 @@ const PlanCard = () => {
             <p className="card-text">
               分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。
             </p>
-            <a href="#" className="btn btn-secondary w-100">
+            <a className="btn btn-secondary w-100" data-bs-toggle="collapse" href="#trialLesson" role="button" aria-expanded="false" aria-controls="trialLesson">
               選擇課程
             </a>
           </div>

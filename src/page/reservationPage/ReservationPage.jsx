@@ -1,11 +1,15 @@
 import React from "react";
-import PlanPick from "./homepage/PlanPick";
+import PlansGroup from "./PlansGroup";
+import LessonLevel from './LessonLevel';
 
-const Plans = () => {
+const ReservationPage = () => {
   return (
     <>
-      <PlanPick title="立即預約" />
+      <PlansGroup title="立即預約" />
+      {/* 展開內容 */}
+      <LessonLevel />
       <div className="container">
+        {/* 預約須知 */}
         <div className="row">
           <div className="col-md-8 mx-auto">
             <h2 className="text-center ">預約須知</h2>
@@ -31,4 +35,4 @@ const Plans = () => {
   );
 };
 
-export default Plans;
+export default ReservationPage;

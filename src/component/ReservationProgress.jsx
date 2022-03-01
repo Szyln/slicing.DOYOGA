@@ -1,23 +1,23 @@
 import React from "react";
-import ReservationTab from "./ReservationTab";
+import ReservationProgressTab from "./ReservationProgressTab";
 
-const Reservation = () => {
+const ReservationProgress = () => {
   return (
 
       <ul className="row list-unstyled">
-        <ReservationTab
+        <ReservationProgressTab
           bgColor="primary"
           textColor="white"
           marginAuto="s"
           children="選擇方案"
 
         />
-        <ReservationTab
+        <ReservationProgressTab
           bgColor="secondary-light"
           textColor="primary"
           children="填寫資料"
         />
-        <ReservationTab
+        <ReservationProgressTab
           bgColor="secondary-light"
           textColor="primary"
           marginAuto="e"
@@ -27,4 +27,4 @@ const Reservation = () => {
   );
 };
 
-export default Reservation;
+export default ReservationProgress;

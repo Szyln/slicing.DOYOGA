@@ -10,7 +10,7 @@ const Banner = () => {
             <span>健身輕時尚</span>
             <h1>DOYOGA，做你的瑜伽</h1>
             <p>多給自己一點時間享受靜謐，傾聽內心的聲音。</p>
-            <Link to="/plans">
+            <Link to="/ReservationPage">
               <button
                 type="button"
                 className="btn btn-secondary-light text-primary-dark"

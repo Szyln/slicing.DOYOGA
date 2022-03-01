@@ -1,15 +1,15 @@
 import React from "react";
 import PlanCard from "./PlanCard";
-import Reservation from '../../component/Reservation';
+import ReservationProgress from '../../component/ReservationProgress';
 
-const PlanPick = ({ title, def }) => {
+const PlansGroup = ({ title, def }) => {
   return (
     <section>
       <div className="container">
         
         <h2 className="text-center">{title}</h2>
         { def ? <p>{ def }</p> : null }
-        <Reservation />
+        <ReservationProgress />
         <ul className="row list-unstyled">
           <li className="col-xl">
             <PlanCard />
@@ -20,10 +20,10 @@ const PlanPick = ({ title, def }) => {
           <li className="col-xl">
             <PlanCard />
           </li>
-        </ul>
+        </ul>  
       </div>
     </section>
   );
 };
 
-export default PlanPick;
+export default PlansGroup;

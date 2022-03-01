@@ -5,17 +5,22 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build-css": "sass -w src/style/scss/all.scss src/style/all.css"
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.2.1",
-    "swiper": "^8.0.6"
+    "swiper": "^8.0.6",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
+    "sass": "^1.49.9",
     "vite": "^2.8.0"
   }
 }

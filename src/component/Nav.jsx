@@ -52,18 +52,22 @@ const Nav = () => {
             </ul>
             {/* 放入 form 元素 */}
             <form className="ms-auto">
-              <button
-                className="btn btn-outline-primary border-width-sm rounded-2"
-                type="button"
-              >
-                立即預約
-              </button>
-              <button
-                className="btn btn-outline-primary border-width-sm rounded-2"
-                type="button"
-              >
-                聯絡我們
-              </button>
+              <Link to="/reservation">
+                <button
+                  className="btn btn-outline-primary border-width-sm rounded-2"
+                  type="button"
+                >
+                  立即預約
+                </button>
+              </Link>
+              <Link to="/contact">
+                <button
+                  className="btn btn-outline-primary border-width-sm rounded-2"
+                  type="button"
+                >
+                  聯絡我們
+                </button>
+              </Link>
             </form>
           </div>
         </div>
