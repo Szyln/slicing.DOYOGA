@@ -5,7 +5,7 @@ const Teachers = () => {
     <section className="bg-secondary-light">
       <div className="container">
         <div className="row">
-          <div className="col d-none d-xl-block">
+          <div className="col d-none d-lg-block">
             <img
               src="../src/image/photo-1540206276207-3af25c08abc4.jpeg"
               alt="訓練場景"

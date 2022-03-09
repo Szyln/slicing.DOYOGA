@@ -1,25 +1,27 @@
 import React from "react";
 
-const PlanCard = () => {
+const PlanCard = ({info}) => {
+
+  
   return (
     
     <div className="card">
       <div className="row g-0">
         {/* 圖 */}
-        <div className="col-4 col-md col-xl-12 ratio ratio-4x3">
+        <div className="col-4 col-md col-lg-12 ratio ratio-4x3">
           <img
-            src="../src/image/woman in white tank top and white leggings bending her body.jpg"
+            src={info.img}
             className="card-img-top fit-cover rounded-only-md-lg-start"
-            alt="woman in white tank top and white leggings bending her body"
+            alt={info.name}
           />
         </div>
         {/* 文字 */}
-        <div className="col-md col-xl-12">
+        <div className="col-md col-lg-12">
           <div className="card-body">
-            <h3 className="card-title">首次體驗</h3>
-            <span className="card-text">NT $450 / 次</span>
+            <h3 className="card-title">{info.name}</h3>
+            <span className="card-text">NT ${info.price} / 次</span>
             <p className="card-text">
-              分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。
+              {info.info}
             </p>
             <a className="btn btn-secondary w-100" data-bs-toggle="collapse" href="#trialLesson" role="button" aria-expanded="false" aria-controls="trialLesson">
               選擇課程

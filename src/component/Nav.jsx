@@ -6,7 +6,7 @@ const Nav = () => {
     <>
       {/* navabr: navbar-light(亮字) + bg-<theme-color（自訂要設定API）> */}
       {/* navbar-expand-<breakpoint> 設定什麼時候要將細項收起來 */}
-      <nav className="navbar navbar-light bg-secondary-light navbar-expand-xl">
+      <nav className="navbar navbar-light bg-secondary-light navbar-expand-lg">
         {/* 內容不貼邊 */}
         <div className="container">
           {/* LOGO */}
@@ -42,11 +42,6 @@ const Nav = () => {
               <li className="nav-item">
                 <Link className="nav-link" to="/schedule">
                   當月課表
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/example">
-                  元件
                 </Link>
               </li>
             </ul>

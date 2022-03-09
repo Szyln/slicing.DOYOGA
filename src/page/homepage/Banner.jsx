@@ -6,11 +6,11 @@ const Banner = () => {
     <div className="bg-homepage-banner d-flex flex-column justify-content-center">
       <div className="container">
         <div className="row">
-          <div className="col-md-7 col-xl-5 offset-xl-1">
+          <div className="col-md-7 col-lg-5 offset-lg-1">
             <span>健身輕時尚</span>
             <h1>DOYOGA，做你的瑜伽</h1>
             <p>多給自己一點時間享受靜謐，傾聽內心的聲音。</p>
-            <Link to="/ReservationPage">
+            <Link to="/reservation">
               <button
                 type="button"
                 className="btn btn-secondary-light text-primary-dark"
