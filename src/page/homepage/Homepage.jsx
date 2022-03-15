@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import Banner from '../homepage/Banner';
 import Purpose from '../homepage/Purpose';
 import Teachers from '../homepage/Teachers';
@@ -7,7 +7,7 @@ import LessonBtn from '../homepage/LessonBtn';
 import PlansGroup from '../reservationPage/PlansGroup';
 import Evaluations from '../homepage/Evaluations';
 
-const Homepage = () => {
+const Homepage = ({ termsInfo, setTerm }) => {
   return (
     <>
       {/* banner */}
@@ -21,7 +21,11 @@ const Homepage = () => {
       {/* 精心設計、課程多元 */}
       <LessonBtn />
       {/* 方案選擇 */}
-      <PlansGroup title="方案選擇" def="DOYOGA 可以帶給你..."/>
+      <section>
+        <h2>方案選擇</h2>
+        <h3>DOYOGA 可以帶給你...</h3>
+        <PlansGroup termsInfo={termsInfo} setTerm={setTerm} />
+      </section>
       {/* 聽聽他們怎麼說 */}
       <Evaluations />
     </>

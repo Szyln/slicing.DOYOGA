@@ -103,7 +103,7 @@ const Space = ({ lessons }) => {
                 <li>男女置物櫃、淋浴間：分別設置在館內 A、B 區。</li>
                 <li>舒適交誼廳，咖啡茶水無限供應，假日提供午間蔬食餐點。</li>
               </ul>
-              <Link to="/reservation">
+              <Link to="/reservation/selection">
                 立即預約<span className="material-icons">arrow_right_alt</span>
               </Link>
             </div>

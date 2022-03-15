@@ -38,7 +38,7 @@ const Course = ({ lessons, teachers }) => {
             </div>
 
             <p>{monthFeatureLesson.info}</p>
-            <Link to="/reservation">
+            <Link to="/reservation/selection">
               <button type="button" className="btn btn-secondary">
                 立即預約
               </button>
@@ -126,7 +126,7 @@ const Course = ({ lessons, teachers }) => {
                             </span>
                           </div>
                           <p>{lesson.info}</p>
-                          <Link to="/reservation">
+                          <Link to="/reservation/selection">
                             <button
                               type="button"
                               className="btn btn-secondary-light"

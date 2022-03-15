@@ -10,9 +10,9 @@ const Nav = () => {
         {/* 內容不貼邊 */}
         <div className="container">
           {/* LOGO */}
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" to="/">
             DOYOGA
-          </a>
+          </Link>
           {/* 收起來的按鈕 */}
           <button
             className="navbar-toggler"
@@ -47,7 +47,7 @@ const Nav = () => {
             </ul>
             {/* 放入 form 元素 */}
             <form className="ms-auto">
-              <Link to="/reservation">
+              <Link to="/reservation/selection">
                 <button
                   className="btn btn-outline-primary border-width-sm rounded-2"
                   type="button"
