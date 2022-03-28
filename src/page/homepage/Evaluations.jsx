@@ -58,13 +58,13 @@ const Evaluations = () => {
   ];
 
   return (
-    <section className='bg-secondary-light pt-8 pb-12 pt-lg-10 pb-lg-16'>
-      <div className='container'>
-        <h2>聽聽他們怎麼說</h2>
-        <div className='row row-cols-3 gy-4'>
+    <section className='bg-secondary-light pt-8 pb-12 pt-lg-10 pb-lg-16 overflow-hidden'>
+      <div className='container '>
+        <h2 className='mb-6 mb-md-8'>聽聽他們怎麼說</h2>
+        <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4'>
           {evaluations.map((evaluation) => (
-            <div className='col'>
-              <div className='bg-white rounded d-flex p-4 '>
+            <div className='col' key={uuidv4()}>
+              <div className='bg-white rounded d-flex p-4'>
                 <div className='me-5 my-auto'>
                   <img
                     src={evaluation.img}
@@ -73,12 +73,12 @@ const Evaluations = () => {
                   />
                 </div>
                 <div>
-                  <div className='d-flex justify-content-between align-contents-center'>
-                    <h4 className='text-primary fs-4'>{evaluation.name}</h4>
+                  <div className='d-flex mb-1'>
+                    <h4 className='text-primary fs-4 me-2'>{evaluation.name}</h4>
                     <p className='text-primary fs-sm'>{evaluation.date}</p>
                   </div>
                   {/* 這個要設定條件句（數字轉成星星形狀）還是乾脆直接存星星形狀在數據庫ㄋ */}
-                  <p className='text-secondary'>{evaluation.star}</p>
+                  <p className='text-secondary mb-2 fs-5 lh-sm'>{evaluation.star}</p>
                   <p className='text-primary'>{evaluation.feedback}</p>
                 </div>
               </div>

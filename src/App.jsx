@@ -159,6 +159,17 @@ const App = () => {
       img: '../src/image/woman in blue leggings and black tank top doing yoga.jpg',
     },
   ];
+  const socialMediaLinks = [
+    {
+      name: 'facebook',
+    },
+    {
+      name: 'instagram',
+    },
+    {
+      name: 'line',
+    },
+  ]
   const [term, setTerm] = useState('trialLesson');
 
   return (
@@ -197,7 +208,7 @@ const App = () => {
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </main>
-      <Footer />
+      <Footer socialMediaLinks={socialMediaLinks}/>
     </>
   );
 };

@@ -11,8 +11,8 @@ const Nav = () => {
         {/* 內容不貼邊 */}
         <div className="container">
           {/* LOGO */}
-          <Link className="navbar-brand" to="/">
-            DOYOGA
+          <Link className="navbar-brand " to="/">
+            <img src="../../src/image/DOYOGA-logo.png" alt="DOYOGA logo" className="logo-length my-2"/>
           </Link>
           {/* 收起來的按鈕 */}
           <button
@@ -29,7 +29,7 @@ const Nav = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             {/* toggle 的範圍要包在這裡面 */}
             {/* navbar-nav：細項 */}
-            <ul className="navbar-nav ms-auto">
+            <ul className="navbar-nav ms-auto text-center mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link" to="/course">
                   課程介紹
@@ -47,10 +47,10 @@ const Nav = () => {
               </li>
             </ul>
             {/* 放入 form 元素 */}
-            <form className="ms-auto">
+            <form className="ms-lg-auto me-lg-0 text-center mb-2 mb-lg-0">
               <Link to="/reservation/selection">
                 <button
-                  className="btn btn-outline-primary border-width-sm rounded-2"
+                  className="btn btn-outline-primary border-width-sm rounded-2 me-4"
                   type="button"
                 >
                   立即預約
