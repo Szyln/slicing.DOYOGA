@@ -4,7 +4,7 @@ import ReservationProgressTab from "./ReservationProgressTab";
 const ReservationProgress = () => {
   return (
 
-      <ul className="row list-unstyled">
+      <ul className="row">
         <ReservationProgressTab
           bgColor="primary"
           textColor="white"

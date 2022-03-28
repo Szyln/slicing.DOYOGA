@@ -57,7 +57,7 @@ const Course = ({ lessons, teachers }) => {
         <div className="row position-lg-relative">
           {/* 單張課程卡片長相 */}
           {lessons.map((lesson, index) => (
-            <>
+            <div key={uuidv4()}>
               <div
                 className={`col-md-6 ${
                   index % 4 === 0 || index % 4 == 3 ? `col-lg-5` : `col-lg-4`
@@ -91,15 +91,15 @@ const Course = ({ lessons, teachers }) => {
               </div>
               {/* LessonModal */}
               <div
-                class="modal fade"
+                className="modal fade"
                 id="lessonModal"
-                tabindex="-1"
+                tabIndex="-1"
                 aria-labelledby="lessonModalLabel"
                 aria-hidden="true"
               >
-                <div class="modal-dialog modal-dialog-centered">
-                  <div class="modal-content bg-secondary text-white">
-                    <div class="modal-body">
+                <div className="modal-dialog modal-dialog-centered">
+                  <div className="modal-content bg-secondary text-white">
+                    <div className="modal-body">
                       <div className="row">
                         <div className="col-6 offset-3 offset-md-0 col-md-5 ">
                           <div className="ratio ratio-1x1">
@@ -112,7 +112,7 @@ const Course = ({ lessons, teachers }) => {
                         </div>
                         <div className="col-md-7">
                           <h2
-                            class="modal-title text-white"
+                            className="modal-title text-white"
                             id="lessonModalLabel"
                           >
                             {lesson.name}
@@ -141,13 +141,13 @@ const Course = ({ lessons, teachers }) => {
                 </div>
               </div>
 
-            </>
+            </div>
           ))}
 
           {/* 上課須知 */}
           <div className="offset-md-3 offset-lg-0 col-md-6 col-lg-3 position-lg-absolute end-0">
             <h4 className="text-primary">DOYOGA 上課須知：</h4>
-            <ul className="list-unstyled text-primary">
+            <ul className="text-primary">
               <li>請攜帶適當的瑜珈墊和一條長毛巾配合課程使用。</li>
               <li>
                 運動中請穿著有彈性、吸汗、透氣為原則的衣物，盡量穿著較貼身的運動衣，以便教練指導與自我矯正。

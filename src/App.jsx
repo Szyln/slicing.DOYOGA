@@ -163,14 +163,14 @@ const App = () => {
 
   return (
     <>
-      <header>
+      <header className='sticky-top'>
         <Nav />
       </header>
       <main>
         <Routes>
           <Route
             path='/'
-            element={<Homepage termsInfo={termsInfo} setTerm={setTerm} />}
+            element={<Homepage termsInfo={termsInfo} setTerm={setTerm} teachers={teachers} lessons={lessons} />}
           />
           <Route path='/space' element={<Space lessons={lessons} />} />
           <Route path='/schedule' element={<Schedule />} />
@@ -189,7 +189,7 @@ const App = () => {
             }
           >
 
-            <Route path='selection' element={<ReservationSelection termsInfo={termsInfo}setTerm={setTerm}term={term}/>} />
+            <Route path='selection' element={<ReservationSelection termsInfo={termsInfo} setTerm={setTerm}term={term}/>} />
             <Route path='form' element={<Form />} />
             <Route path='result' element={<Result />} />
           </Route>

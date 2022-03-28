@@ -11,7 +11,7 @@ const PlansGroup = ({ termsInfo, setTerm }) => {
         - 首頁
         - 預約頁
     */
-    <ul className="row list-unstyled">
+    <ul className="row gy-4 gy-md-6 gy-lg-0">
       {termsInfo.map((termInfo) => (
         <li className="col-lg" key={uuidv4()}>
           <PlanCard info={termInfo} setTerm={setTerm}/>

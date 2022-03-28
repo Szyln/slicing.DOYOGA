@@ -5,6 +5,7 @@ const LessonLevelCard = ({ info, setLevel }) => {
   const handleLevelClick = (e) => {
     setLevel(e.target.text);
   };
+  
   return (
     <div className='card bg-secondary border-white border-4 text-white'>
       <div className='d-flex justify-content-between align-items-center'>

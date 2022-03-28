@@ -19,14 +19,14 @@ const Footer = () => {
       <div className="d-flex justify-content-between flex-wrap flex-md-nowrap"> 
         <div>
           <a className="link-light" href="/">DOYOGA</a>
-          <ul className="list-unstyled">
+          <ul>
             <li><Link className="link-light" to="/course">課程介紹</Link></li>
             <li><Link className="link-light" to="/space">瑜伽空間</Link></li>
             <li><Link className="link-light" to="/schedule">當月課表</Link></li>
           </ul>
         </div>
 
-        <ul className="list-unstyled d-flex order-md-1"> 
+        <ul className="d-flex order-md-1"> 
           <li><a className="link-light" href="/">loddddgo</a></li>
           <li><a className="link-light" href="/">logo</a></li>
           <li><a className="link-light" href="/">logo</a></li>

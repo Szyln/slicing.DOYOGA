@@ -2,6 +2,7 @@ import React from "react";
 import { v4 as uuidv4 } from "uuid";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
+import LinkToPage from '../component/LinkToPage';
 
 import "swiper/css";
 
@@ -12,7 +13,7 @@ const Space = ({ lessons }) => {
         <div className="row">
           {/* 空間有哪些 */}
           <div className="col-md-8">
-            <ul className="row list-unstyled">
+            <ul className="row">
               {/* A、B 團體課教室 */}
               <li className="col-md-12">
                 <div className="card bg-dark text-white ratio ratio-1x1 ratio-md-2x1">
@@ -97,14 +98,16 @@ const Space = ({ lessons }) => {
           <div className="col-md-4">
             <div className="card bg-secondary-light">
               <h4>DOYOGA 提供：</h4>
-              <ul className="list-unstyled">
+              <ul>
                 <li>四間教室：A、B 團體課教室、C、D 個人訓練室。</li>
                 <li>瑜珈墊、輔具：每次課後會進行殺菌清潔，乾淨免擔心。</li>
                 <li>男女置物櫃、淋浴間：分別設置在館內 A、B 區。</li>
                 <li>舒適交誼廳，咖啡茶水無限供應，假日提供午間蔬食餐點。</li>
               </ul>
+              <LinkToPage to='reservation/selection' >立即預約</LinkToPage>
               <Link to="/reservation/selection">
                 立即預約<span className="material-icons">arrow_right_alt</span>
+                
               </Link>
             </div>
           </div>
@@ -132,7 +135,7 @@ const Space = ({ lessons }) => {
         >
           {lessons.map((lesson) => (
             <SwiperSlide key={uuidv4()}>
-              <ul className="list-unstyled">
+              <ul>
                 <li className="ratio ratio-5x4">
                   <img src={lesson.img} alt={lesson.name} className="rounded" />
                 </li>

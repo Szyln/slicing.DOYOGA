@@ -7,7 +7,7 @@ const Section = ({ backgroundColor, title, sub }) => {
         <h2 className="text-center">{title}</h2>
         <p className="text-center">{sub}</p>
         
-        <ul className="list-unstyled row">
+        <ul className="row">
           <li className="col-md-4">
             <div className="card bg-dark text-white">
               <img

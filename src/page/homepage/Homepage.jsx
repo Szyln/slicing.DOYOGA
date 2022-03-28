@@ -7,7 +7,7 @@ import LessonBtn from '../homepage/LessonBtn';
 import PlansGroup from '../reservationPage/PlansGroup';
 import Evaluations from '../homepage/Evaluations';
 
-const Homepage = ({ termsInfo, setTerm }) => {
+const Homepage = ({ termsInfo, setTerm, teachers, lessons }) => {
   return (
     <>
       {/* banner */}
@@ -15,16 +15,17 @@ const Homepage = ({ termsInfo, setTerm }) => {
       {/* 感受身心，活在當下 */}
       <Purpose />
       {/* 頂尖師資、專業教學 */}
-      <Teachers />
+      <Teachers teachers={teachers} />
       {/* 舒適空間、靜心放鬆 */}
       <SpaceBtn />
       {/* 精心設計、課程多元 */}
-      <LessonBtn />
+      <LessonBtn lessons={lessons} />
       {/* 方案選擇 */}
-      <section>
-        <h2>方案選擇</h2>
-        <h3>DOYOGA 可以帶給你...</h3>
+      <section className='container pt-8 pb-12 pt-lg-10 pb-lg-16'>
+        <h2 className='mb-1'>方案選擇</h2>
+        <h3 className='text-secondary text-center mb-6'>DOYOGA 可以帶給你...</h3>
         <PlansGroup termsInfo={termsInfo} setTerm={setTerm} />
+
       </section>
       {/* 聽聽他們怎麼說 */}
       <Evaluations />

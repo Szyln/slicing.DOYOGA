@@ -8,21 +8,25 @@ const PlanCard = ({ info, setTerm }) => {
     <div className='card'>
       <div className='row g-0'>
         {/* 圖 */}
-        <div className='col-4 col-md col-lg-12 ratio ratio-4x3'>
+        <div className='col-md col-lg-12 ratio [ratio-4x3] ratio-except-md-4x3'>
           <img
             src={info.img}
-            className='card-img-top fit-cover rounded-only-md-lg-start'
+            className='card-img-top fit-cover rounded-only-md-start'
             alt={info.name}
           />
         </div>
         {/* 文字 */}
         <div className='col-md col-lg-12'>
-          <div className='card-body'>
-            <h3 className='card-title'>{info.name}</h3>
-            <span className='card-text'>NT ${info.price} / 次</span>
-            <p className='card-text'>{info.info}</p>
+          <div className='card-body p-6'>
+            <h3 className='card-title text-primary text-center text-md-start text-lg-center mb-1'>
+              {info.name}
+            </h3>
+            <span className='card-text d-block text-secondary text-center text-md-start text-lg-center fs-5 mb-2'>
+              NT ${info.price} / 次
+            </span>
+            <p className='card-text text-primary mb-6'>{info.info}</p>
             <a
-              className='btn btn-secondary w-100'
+              className='btn btn-lg btn-secondary w-100 rounded-1'
               id={`${info.engName}LessonBtn`}
               data-bs-toggle='collapse'
               // href={`#${info.engName}Lesson`}
