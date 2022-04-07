@@ -1,29 +1,22 @@
-import React from "react";
-import ReservationProgressTab from "./ReservationProgressTab";
+import React from 'react';
+import ReservationProgressTab from './ReservationProgressTab';
 
-const ReservationProgress = () => {
+const ReservationProgress = ({ step }) => {
+  const progressTabs = ['選擇方案', '選填資料', '完成預約'];
   return (
-
-      <ul className="row">
-        <ReservationProgressTab
-          bgColor="primary"
-          textColor="white"
-          marginAuto="s"
-          children="選擇方案"
-
-        />
-        <ReservationProgressTab
-          bgColor="secondary-light"
-          textColor="primary"
-          children="填寫資料"
-        />
-        <ReservationProgressTab
-          bgColor="secondary-light"
-          textColor="primary"
-          marginAuto="e"
-          children="完成預約"
-        />
+    <div className='container'>
+      <ul className='row mb-8 row-cols-3'>
+        {progressTabs.map((progressTab, index) => (
+          <ReservationProgressTab
+            bgColor={index + 1 == step ? 'primary' : 'secondary-light'}
+            textColor={index + 1 == step ? 'white' : 'primary'}
+            marginAuto={index == 0 ? 'ms-auto' : index == 2 ? 'me-auto' : ''}
+            children={progressTab}
+            key={progressTab}
+          />
+        ))}
       </ul>
+    </div>
   );
 };
 

@@ -3,7 +3,7 @@ import PlanCard from "./PlanCard";
 
 import { v4 as uuidv4 } from "uuid";
 
-const PlansGroup = ({ termsInfo, setTerm }) => {
+const PlansGroup = ({ termsInfo, setTerm, term }) => {
 
   return (
     /*
@@ -14,7 +14,7 @@ const PlansGroup = ({ termsInfo, setTerm }) => {
     <ul className="row gy-4 gy-md-6 gy-lg-0">
       {termsInfo.map((termInfo) => (
         <li className="col-lg" key={uuidv4()}>
-          <PlanCard info={termInfo} setTerm={setTerm}/>
+          <PlanCard info={termInfo} setTerm={setTerm} term={term}/>
         </li>
       ))}
     </ul>

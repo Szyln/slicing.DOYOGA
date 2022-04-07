@@ -2,8 +2,8 @@ import React from "react";
 
 const SearchLessonInput = () => {
   return (
-    <div className="row gx-3">
-      <div className="col-auto">
+    <div className="row gx-3 row-cols-2">
+      <div className="col-8 col-md-auto">
         <div className="input-group">
           <input
             type="text"
@@ -20,7 +20,7 @@ const SearchLessonInput = () => {
           />
         </div>
       </div>
-      <div className="col-auto">
+      <div className="col-4 col-md-auto">
         <select className="form-select" aria-label="lesson type sorting" defaultValue="全部課程">
           <option>全部課程</option>
           <option value="1">初級</option>

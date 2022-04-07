@@ -26,7 +26,7 @@ const LessonModal = ({lesson}) => {
                     <h3 className="card-subtitle">
                       授課老師：{lesson.teacher}
                     </h3>
-                    <span className="badge badge-pill bg-primary">
+                    <span className="badge rounded-pill bg-primary">
                       {lesson.time} min
                     </span>
                   </div>

@@ -3,17 +3,20 @@ import React from 'react';
 // import LessonLevel from './LessonLevel';
 import ReservationProgress from '../../component/ReservationProgress';
 import { Link, Outlet } from 'react-router-dom';
+import PageSpacing from '../../component/PageSpacing';
+import PageTitle from '../../component/PageTitle';
+// import { useState } from 'react';
 
+const ReservationPage = ({ termsInfo, setTerm, term, step }) => {
 
-const ReservationPage = ({ termsInfo, setTerm, term }) => {
   return (
-    <>
-      <div className='container'>
-        <h2 className='text-center'>立即預約</h2>
-        <ReservationProgress />
+    <PageSpacing>
+
+        <PageTitle>立即預約</PageTitle>
+        <ReservationProgress step={step} />
         <Outlet />
-      </div>
-    </>
+
+    </PageSpacing>
   );
 };
 

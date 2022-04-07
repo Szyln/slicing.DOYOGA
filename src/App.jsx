@@ -169,9 +169,70 @@ const App = () => {
     {
       name: 'line',
     },
-  ]
-  const [term, setTerm] = useState('trialLesson');
+  ];
+  const spaces = [
+    {
+      name: 'A、B 團體課教室',
+      img: '../../src/image/blue swimming pool near green potted plant.jpg',
+      des: '教授課程：A-基礎、艾揚格、哈達、寰宇；B-雙人飛行、阿斯坦加、陰陽、香氛',
+    },
+    {
+      name: 'C、D 個人訓練室',
+      img: '../../src/image/carl-barcelo-nqUHQkuVj3c-unsplash.jpg',
+      des: '開放時間：每週一至週五 09:00~17:00',
+    },
+    {
+      name: '淋浴間',
+      img: '../../src/image/white ceramic sink near white ceramic sink.jpg',
+      des: '開放時間：每週一至週日 09:00~21:30',
+    },
+    {
+      name: '器材出租',
+      img: '../../src/image/woman in black sports bra and blue denim jeans doing yoga.jpg',
+      des: '有租借需求請至櫃檯登記',
+    },
+    {
+      name: '交誼廳',
+      img: '../../src/image/sittin people beside table inside room.jpg',
+      des: '開放時間：每週一至週五 09:00~21:30',
+    },
+  ];
+  const levelsInfo = [
+    {
+      level: '基礎 Basic',
+      lessons: '基礎課程',
+      time: 60,
+      listInfos: [
+        '入體位法動作解說',
+        '瑜珈基礎動作、順位',
+        '適合任何階段練習者',
+      ],
+    },
+    {
+      level: '中階 Intermediate',
+      lessons: '艾揚格、哈達、寰宇',
+      time: 60,
+      listInfos: [
+        '刺激身體七個層次為核心',
+        '結合流暢體位法練習、呼吸、觀想',
+        '適合半年以上練習者',
+      ],
+    },
+    {
+      level: '高階 Advanced',
+      lessons: '阿斯坦加、陰陽',
+      time: 60,
+      listInfos: [
+        '充分打開身體每個部位',
+        '顯著提升力量與柔軟度',
+        '適合一年以上練習者',
+      ],
+    },
+  ];
 
+  const [level, setLevel] = useState(null);
+  const [term, setTerm] = useState(null);
+  const [step, setStep] = useState('1');
   return (
     <>
       <header className='sticky-top'>
@@ -179,11 +240,23 @@ const App = () => {
       </header>
       <main>
         <Routes>
+          ‘
           <Route
             path='/'
-            element={<Homepage termsInfo={termsInfo} setTerm={setTerm} teachers={teachers} lessons={lessons} />}
+            element={
+              <Homepage
+                termsInfo={termsInfo}
+                setTerm={setTerm}
+                teachers={teachers}
+                lessons={lessons}
+                spaces={spaces}
+              />
+            }
           />
-          <Route path='/space' element={<Space lessons={lessons} />} />
+          <Route
+            path='/space'
+            element={<Space lessons={lessons} spaces={spaces} />}
+          />
           <Route path='/schedule' element={<Schedule />} />
           <Route
             path='/course'
@@ -196,19 +269,32 @@ const App = () => {
                 termsInfo={termsInfo}
                 setTerm={setTerm}
                 term={term}
+                step={step}
               />
             }
           >
-
-            <Route path='selection' element={<ReservationSelection termsInfo={termsInfo} setTerm={setTerm}term={term}/>} />
-            <Route path='form' element={<Form />} />
-            <Route path='result' element={<Result />} />
+            <Route
+              path='selection'
+              element={
+                <ReservationSelection
+                  termsInfo={termsInfo}
+                  setTerm={setTerm}
+                  term={term}
+                  // step={step}
+                  setStep={setStep}
+                  levelsInfo={levelsInfo}
+                  level={level}
+                  setLevel={setLevel}
+                />
+              }
+            />
+            <Route path='form' element={<Form setStep={setStep} term={term} level={level}  />} />
+            <Route path='result' element={<Result setStep={setStep} />} />
           </Route>
-
-          <Route path='/contact' element={<Contact />} />
+          <Route path='/contact' element={<Contact setStep={setStep} />} />
         </Routes>
       </main>
-      <Footer socialMediaLinks={socialMediaLinks}/>
+      <Footer socialMediaLinks={socialMediaLinks} />
     </>
   );
 };

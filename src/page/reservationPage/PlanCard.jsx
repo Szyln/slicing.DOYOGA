@@ -1,11 +1,19 @@
 import React, { useState } from 'react';
 
-const PlanCard = ({ info, setTerm }) => {
+const PlanCard = ({ info, setTerm, term }) => {
   const handleTermClick = (e) => {
-    setTerm(e.target.id);
+    {e.target.id == 'trialLessonBtn'
+    ? setTerm('首次體驗')
+    : e.target.id == 'shortLessonBtn'
+    ? setTerm('短期體驗')
+    : setTerm('長期體驗')}
+    console.log(term);
+    
+
+    
   };
   return (
-    <div className='card'>
+    <div className={`card hover-card ${term == info.name ? 'active arrow': ''}`}>
       <div className='row g-0'>
         {/* 圖 */}
         <div className='col-md col-lg-12 ratio [ratio-4x3] ratio-except-md-4x3'>
@@ -26,7 +34,7 @@ const PlanCard = ({ info, setTerm }) => {
             </span>
             <p className='card-text text-primary mb-6'>{info.info}</p>
             <a
-              className='btn btn-lg btn-secondary w-100 rounded-1'
+              className='btn btn-lg btn-secondary w-100 rounded-1 stretched-link'
               id={`${info.engName}LessonBtn`}
               data-bs-toggle='collapse'
               // href={`#${info.engName}Lesson`}

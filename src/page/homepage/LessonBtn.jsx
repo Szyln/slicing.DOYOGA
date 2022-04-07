@@ -11,8 +11,8 @@ const LessonBtn = ({ lessons }) => {
   });
   return (
     <section className='bg-secondary-light py-12 py-lg-16 overflow-hidden'>
-      <div className='container '>
-        <div className='row flex-lg-nowrap '>
+      <div className='container'>
+        <div className='row flex-lg-nowrap'>
           <div className='col-md col-lg-5 offset-lg-1 my-auto'>
             <h2 className='text-start mb-1'>精心設計、課程多元</h2>
             <p className='fs-5 text-secondary mb-4'>

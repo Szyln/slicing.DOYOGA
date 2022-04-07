@@ -7,7 +7,7 @@ import LessonBtn from '../homepage/LessonBtn';
 import PlansGroup from '../reservationPage/PlansGroup';
 import Evaluations from '../homepage/Evaluations';
 
-const Homepage = ({ termsInfo, setTerm, teachers, lessons }) => {
+const Homepage = ({ termsInfo, setTerm, teachers, lessons, spaces }) => {
   return (
     <>
       {/* banner */}
@@ -17,7 +17,7 @@ const Homepage = ({ termsInfo, setTerm, teachers, lessons }) => {
       {/* 頂尖師資、專業教學 */}
       <Teachers teachers={teachers} />
       {/* 舒適空間、靜心放鬆 */}
-      <SpaceBtn />
+      <SpaceBtn spaces={spaces} />
       {/* 精心設計、課程多元 */}
       <LessonBtn lessons={lessons} />
       {/* 方案選擇 */}
