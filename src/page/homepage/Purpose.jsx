@@ -5,18 +5,18 @@ const Purpose = () => {
     {
       title: '整體健身',
       des: '每一個動作，都融入運動解剖學的的觀點強調以身體的中心線為出發點。',
-      img: '../src/image/photo-1593810450967-f9c42742e326.jpeg',
+      img: '../img/photo-1593810450967-f9c42742e326.jpeg',
     },
 
     {
       title: '減壓放鬆',
       des: '調節全身系統、改善血液循環、減壓養心、釋放身心，達到修心養性的目的。',
-      img: '../src/image/photo-1593810451137-5dc55105dace.jpeg',
+      img: '../img/photo-1593810451137-5dc55105dace.jpeg',
     },
     {
       title: '局部雕塑',
       des: '幫助強化背部與腹部的核心肌群，增進我們身體穩定度以及保持良好體態。',
-      img: '../src/image/photo-1599901860904-17e6ed7083a0.jpeg',
+      img: '../img/photo-1599901860904-17e6ed7083a0.jpeg',
     },
   ];
   return (

@@ -31,7 +31,7 @@ const Footer = ({ socialMediaLinks }) => {
         <div className='d-flex justify-content-between flex-wrap flex-md-nowrap'>
           <div className='mb-1 mb-md-0'>
             <a className='link-light' href='/'>
-              <img src="../../src/image/DOYOGA.png" alt="DOYOGA logo" className='logo-length py-1'/>
+              <img src="../../img/DOYOGA.png" alt="DOYOGA logo" className='logo-length py-1'/>
             </a>
             <ul>
               <li>

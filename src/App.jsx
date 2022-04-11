@@ -23,7 +23,7 @@ const App = () => {
       info: '使用掛布懸掛在半空，進行哈達瑜珈體位法練習藉由地心引力的重力原理鍛鍊核心肌群，舒緩脊椎壓力訓練身體協調性，深層放鬆身體課堂裡老師會視同學狀況安排教導倒立動作對於不敢嘗試倒立的同學來說藉由掛布的支持與保護加上老師細心指導，讓同學能更快掌握',
 
       level: 'basic',
-      img: '../src/image/woman doing yoga beside wall.jpg',
+      img: '../img/woman doing yoga beside wall.jpg',
       time: 60,
     },
     {
@@ -31,7 +31,7 @@ const App = () => {
       teacher: 'Kanae',
       info: '使用掛布懸掛在半空，進行哈達瑜珈體位法練習藉由地心引力的重力原理鍛鍊核心肌群，舒緩脊椎壓力訓練身體協調性，深層放鬆身體課堂裡老師會視同學狀況安排教導倒立動作對於不敢嘗試倒立的同學來說藉由掛布的支持與保護加上老師細心指導，讓同學能更快掌握',
       level: 'intermediate',
-      img: '../src/image/rawan-yasser-zQ1ypq-WHzQ-unsplash.jpg',
+      img: '../img/rawan-yasser-zQ1ypq-WHzQ-unsplash.jpg',
       time: 60,
     },
     {
@@ -39,14 +39,14 @@ const App = () => {
       teacher: 'Kanae',
       info: '使用掛布懸掛在半空，進行哈達瑜珈體位法練習藉由地心引力的重力原理鍛鍊核心肌群，舒緩脊椎壓力訓練身體協調性，深層放鬆身體課堂裡老師會視同學狀況安排教導倒立動作對於不敢嘗試倒立的同學來說藉由掛布的支持與保護加上老師細心指導，讓同學能更快掌握',
       level: 'advanced',
-      img: '../src/image/woman doing yoga.jpg',
+      img: '../img/woman doing yoga.jpg',
       time: 60,
     },
     {
       name: '雙人飛行 Arco Yoga',
       teacher: 'Kuzuha、Kanae',
       info: '使用掛布懸掛在半空，進行哈達瑜珈體位法練習藉由地心引力的重力原理鍛鍊核心肌群，舒緩脊椎壓力訓練身體協調性，深層放鬆身體課堂裡老師會視同學狀況安排教導倒立動作對於不敢嘗試倒立的同學來說藉由掛布的支持與保護加上老師細心指導，讓同學能更快掌握',
-      img: '../src/image/two woman dong fitness exercise.jpg',
+      img: '../img/two woman dong fitness exercise.jpg',
       time: 60,
     },
     {
@@ -54,7 +54,7 @@ const App = () => {
       teacher: 'Kuzuha',
       info: '使用掛布懸掛在半空，進行哈達瑜珈體位法練習藉由地心引力的重力原理鍛鍊核心肌群，舒緩脊椎壓力訓練身體協調性，深層放鬆身體課堂裡老師會視同學狀況安排教導倒立動作對於不敢嘗試倒立的同學來說藉由掛布的支持與保護加上老師細心指導，讓同學能更快掌握',
       level: 'intermediate',
-      img: '../src/image/woman in black sports bra and black leggings doing yoga.jpg',
+      img: '../img/woman in black sports bra and black leggings doing yoga.jpg',
       time: 60,
     },
     {
@@ -62,7 +62,7 @@ const App = () => {
       teacher: 'Kuzuha',
       info: '使用掛布懸掛在半空，進行哈達瑜珈體位法練習藉由地心引力的重力原理鍛鍊核心肌群，舒緩脊椎壓力訓練身體協調性，深層放鬆身體課堂裡老師會視同學狀況安排教導倒立動作對於不敢嘗試倒立的同學來說藉由掛布的支持與保護加上老師細心指導，讓同學能更快掌握',
       level: 'intermediate',
-      img: '../src/image/woman in white tank top and white leggings bending her body.jpg',
+      img: '../img/woman in white tank top and white leggings bending her body.jpg',
       time: 60,
     },
 
@@ -71,14 +71,14 @@ const App = () => {
       teacher: 'Asa Chen',
       info: '使用掛布懸掛在半空，進行哈達瑜珈體位法練習藉由地心引力的重力原理鍛鍊核心肌群，舒緩脊椎壓力訓練身體協調性，深層放鬆身體課堂裡老師會視同學狀況安排教導倒立動作對於不敢嘗試倒立的同學來說藉由掛布的支持與保護加上老師細心指導，讓同學能更快掌握',
       level: 'advanced',
-      img: '../src/image/woman in white tank top and white pants bending her body by the window.jpg',
+      img: '../img/woman in white tank top and white pants bending her body by the window.jpg',
       time: 60,
     },
     {
       name: '香氛 Aroma Yoga',
       teacher: 'Asa Chen',
       info: '使用掛布懸掛在半空，進行哈達瑜珈體位法練習藉由地心引力的重力原理鍛鍊核心肌群，舒緩脊椎壓力訓練身體協調性，深層放鬆身體課堂裡老師會視同學狀況安排教導倒立動作對於不敢嘗試倒立的同學來說藉由掛布的支持與保護加上老師細心指導，讓同學能更快掌握',
-      img: '../src/image/carl-barcelo-nqUHQkuVj3c-unsplash.jpg',
+      img: '../img/carl-barcelo-nqUHQkuVj3c-unsplash.jpg',
       time: 60,
     },
     {
@@ -86,14 +86,14 @@ const App = () => {
       monthFeature: true,
       teacher: 'Asa Chen',
       info: '使用掛布懸掛在半空，進行哈達瑜珈體位法練習藉由地心引力的重力原理鍛鍊核心肌群，舒緩脊椎壓力訓練身體協調性，深層放鬆身體課堂裡老師會視同學狀況安排教導倒立動作對於不敢嘗試倒立的同學來說藉由掛布的支持與保護加上老師細心指導，讓同學能更快掌握',
-      img: '../src/image/photo-1540206276207-3af25c08abc4.jpeg',
+      img: '../img/photo-1540206276207-3af25c08abc4.jpeg',
       time: 60,
     },
   ];
   const teachers = [
     {
       name: 'Carol Tang',
-      img: '../src/image/teacher-1.png',
+      img: '../img/teacher-1.png',
       teachingYears: 10,
       info: '“因為瑜珈讓我重新認識自己的身體，也讓我有了不一樣的人生。我希望能跟學生們分享瑜珈的好，讓大家能藉由瑜珈看見自己的內在與潛能，並將瑜珈自然的融入自己的生活中。”',
       exp: [
@@ -104,7 +104,7 @@ const App = () => {
     },
     {
       name: 'Kanae',
-      img: '../src/image/teacher-2.png',
+      img: '../img/teacher-2.png',
       teachingYears: 3,
       info: '“希望每個人透過觀察，感受在在進入動作，連接陰與陽，內和外，呼和吸的方式來更了解瑜珈練習的觀點，每個​動作都帶著呼吸和順位，在平衡心理和生理的狀況下以安全和簡化的技巧進入瑜珈姿勢，帶著放鬆的心情，享受瑜珈和生命的喜悅，並樂在其​中。”',
       exp: [
@@ -115,7 +115,7 @@ const App = () => {
     },
     {
       name: 'Kuzuha',
-      img: '../src/image/teacher-4.png',
+      img: '../img/teacher-4.png',
       teachingYears: 3,
       info: '“瑜珈是一種生活態度，學習平衡不強求，堅持不放棄，修煉心靈活在當下。”',
       exp: [
@@ -126,7 +126,7 @@ const App = () => {
     },
     {
       name: 'Asa Chen',
-      img: '../src/image/teacher-3.png',
+      img: '../img/teacher-3.png',
       teachingYears: 3,
       info: '',
       exp: [
@@ -142,21 +142,21 @@ const App = () => {
       engName: 'trial',
       price: 450,
       info: '分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。',
-      img: '../src/image/woman in white tank top and white leggings bending her body.jpg',
+      img: '../img/woman in white tank top and white leggings bending her body.jpg',
     },
     {
       name: '短期體驗',
       engName: 'short',
       price: 1800,
       info: '分基礎、中級、高級可以選擇。想試著培養瑜珈習慣者可以選擇此方案。',
-      img: '../src/image/woman performing yoga.jpg',
+      img: '../img/woman performing yoga.jpg',
     },
     {
       name: '長期體驗',
       engName: 'long',
       price: 5600,
       info: '分基礎、中級、高級可以選擇。有長期習慣做瑜伽者建議選擇此方案。',
-      img: '../src/image/woman in blue leggings and black tank top doing yoga.jpg',
+      img: '../img/woman in blue leggings and black tank top doing yoga.jpg',
     },
   ];
   const socialMediaLinks = [
@@ -173,27 +173,27 @@ const App = () => {
   const spaces = [
     {
       name: 'A、B 團體課教室',
-      img: '../../src/image/blue swimming pool near green potted plant.jpg',
+      img: '../../img/blue swimming pool near green potted plant.jpg',
       des: '教授課程：A-基礎、艾揚格、哈達、寰宇；B-雙人飛行、阿斯坦加、陰陽、香氛',
     },
     {
       name: 'C、D 個人訓練室',
-      img: '../../src/image/carl-barcelo-nqUHQkuVj3c-unsplash.jpg',
+      img: '../../img/carl-barcelo-nqUHQkuVj3c-unsplash.jpg',
       des: '開放時間：每週一至週五 09:00~17:00',
     },
     {
       name: '淋浴間',
-      img: '../../src/image/white ceramic sink near white ceramic sink.jpg',
+      img: '../../img/white ceramic sink near white ceramic sink.jpg',
       des: '開放時間：每週一至週日 09:00~21:30',
     },
     {
       name: '器材出租',
-      img: '../../src/image/woman in black sports bra and blue denim jeans doing yoga.jpg',
+      img: '../../img/woman in black sports bra and blue denim jeans doing yoga.jpg',
       des: '有租借需求請至櫃檯登記',
     },
     {
       name: '交誼廳',
-      img: '../../src/image/sittin people beside table inside room.jpg',
+      img: '../../img/sittin people beside table inside room.jpg',
       des: '開放時間：每週一至週五 09:00~21:30',
     },
   ];

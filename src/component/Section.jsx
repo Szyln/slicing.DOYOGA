@@ -11,7 +11,7 @@ const Section = ({ backgroundColor, title, sub }) => {
           <li className="col-md-4">
             <div className="card bg-dark text-white">
               <img
-                src="../src/image/photo-1593810450967-f9c42742e326.jpeg"
+                src="../img/photo-1593810450967-f9c42742e326.jpeg"
                 className="card-img"
                 alt="整體健身"
               />

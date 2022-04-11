@@ -12,7 +12,7 @@ const Nav = () => {
         <div className="container">
           {/* LOGO */}
           <Link className="navbar-brand " to="/">
-            <img src="../../src/image/DOYOGA-logo.png" alt="DOYOGA logo" className="logo-length my-2"/>
+            <img src="../../img/DOYOGA-logo.png" alt="DOYOGA logo" className="logo-length my-2"/>
           </Link>
           {/* 收起來的按鈕 */}
           <button

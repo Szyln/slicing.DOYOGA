@@ -11,7 +11,7 @@ const Teachers = ({ teachers }) => {
         <div className='row position-lg-relative'>
           <div className='col-lg-6 d-none d-lg-block'>
             <img
-              src='../src/image/photo-1540206276207-3af25c08abc4.jpeg'
+              src='../img/photo-1540206276207-3af25c08abc4.jpeg'
               alt='訓練場景'
               className='rounded-2 length-teacherSection-img'
             />
