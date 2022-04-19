@@ -42,7 +42,7 @@ const Course = ({ lessons, teachers }) => {
             </div>
 
             <p className='mb-4'>{monthFeatureLesson.info}</p>
-            <Link to='/reservation/selection'>
+            <Link to='/slicing.DOYOGA/reservation/selection'>
               <button type='button' className='btn btn-secondary'>
                 立即預約
               </button>
@@ -128,7 +128,7 @@ const Course = ({ lessons, teachers }) => {
                             </h3>
                           </div>
                           <p className='mb-4'>{lesson.info}</p>
-                          <Link to='/reservation/selection'>
+                          <Link to='/slicing.DOYOGA/reservation/selection'>
                             <button
                               type='button'
                               className='btn btn-secondary-light'

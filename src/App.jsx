@@ -262,9 +262,8 @@ const App = () => {
       </header>
       <main>
         <Routes>
-          ‘
           <Route
-            path=''
+            path='/slicing.DOYOGA'
             element={
               <Homepage
                 termsInfo={termsInfo}
@@ -275,17 +274,20 @@ const App = () => {
               />
             }
           />
+
+            <Route
+              path='/slicing.DOYOGA/space'
+              element={<Space lessons={lessons} spaces={spaces} />}
+            />
+
+          <Route path='/slicing.DOYOGA/schedule' element={<Schedule />} />
           <Route
-            path='/space'
-            element={<Space lessons={lessons} spaces={spaces} />}
-          />
-          <Route path='/schedule' element={<Schedule />} />
-          <Route
-            path='/course'
+            path='/slicing.DOYOGA/course'
             element={<Course lessons={lessons} teachers={teachers} />}
           />
+
           <Route
-            path='/reservation'
+            path='/slicing.DOYOGA/reservation'
             element={
               <ReservationPage
                 termsInfo={termsInfo}
@@ -316,8 +318,9 @@ const App = () => {
             />
             <Route path='result' element={<Result setStep={setStep} />} />
           </Route>
-          <Route path='/contact' element={<Contact setStep={setStep} />} />
+          <Route path='/slicing.DOYOGA/contact' element={<Contact setStep={setStep} />} />
         </Routes>
+
       </main>
       <Footer socialMediaLinks={socialMediaLinks} />
     </>

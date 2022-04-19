@@ -8,14 +8,11 @@ import PageTitle from '../../component/PageTitle';
 // import { useState } from 'react';
 
 const ReservationPage = ({ termsInfo, setTerm, term, step }) => {
-
   return (
     <PageSpacing>
-
-        <PageTitle>立即預約</PageTitle>
-        <ReservationProgress step={step} />
-        <Outlet />
-
+      <PageTitle>立即預約</PageTitle>
+      <ReservationProgress step={step} />
+      <Outlet />
     </PageSpacing>
   );
 };

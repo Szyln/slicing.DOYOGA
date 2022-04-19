@@ -66,7 +66,7 @@ const Result = ({ setStep }) => {
                 .穿著運動服、乾淨室內運動鞋。如欲更改體驗時間請提前通知我們喔！
               </p>
             </div>
-            <Link to='/' className='btn btn-secondary w-100'>
+            <Link to='/slicing.DOYOGA/' className='btn btn-secondary w-100'>
               返回首頁
             </Link>
           </div>

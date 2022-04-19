@@ -31,7 +31,7 @@ const LessonModal = ({lesson}) => {
                     </span>
                   </div>
                   <p className="card-text">{lesson.info}</p>
-                  <Link to="/reservation/selection">
+                  <Link to="/slicing.DOYOGA/reservation/selection">
                     <button type="button" className="btn btn-secondary-light">
                       立即預約
                     </button>

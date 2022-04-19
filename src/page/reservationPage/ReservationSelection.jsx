@@ -69,7 +69,7 @@ const ReservationSelection = ({
             id='nextReservationPageBtn'
           >
             <Link
-              to='/reservation/form'
+              to='/slicing.DOYOGA/reservation/form'
               className='btn btn-secondary w-100'
               onClick={() => {
                 setStep(2);

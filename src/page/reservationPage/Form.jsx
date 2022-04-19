@@ -115,7 +115,7 @@ const Form = ({ setStep, level, term }) => {
           ))}
           
 
-          <Link to='/reservation/result'>
+          <Link to='/slicing.DOYOGA/reservation/result'>
             <input
               type='submit'
               className='btn btn-secondary w-100'
