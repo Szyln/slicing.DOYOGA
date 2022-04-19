@@ -15,15 +15,36 @@ import Form from './page/reservationPage/Form';
 import Result from './page/reservationPage/Result';
 import ReservationSelection from './page/reservationPage/ReservationSelection';
 
+import basicImg from './img/woman doing yoga beside wall.jpg';
+import iyengarImg from './img/rawan-yasser-zQ1ypq-WHzQ-unsplash.jpg';
+import ashtangaImg from './img/woman doing yoga.jpg';
+import arcoYogaImg from './img/two woman dong fitness exercise.jpg';
+import hathaImg from './img/woman in black sports bra and black leggings doing yoga.jpg';
+import universalImg from './img/woman in white tank top and white leggings bending her body.jpg';
+import yinYangImg from './img/woman in white tank top and white pants bending her body by the window.jpg';
+import aromaYogaImg from './img/carl-barcelo-nqUHQkuVj3c-unsplash.jpg';
+import skyYogaImg from './img/photo-1540206276207-3af25c08abc4.jpeg';
+import carolTangImg from './img/teacher-1.png';
+import kanaeImg from './img/teacher-2.png';
+import kuzuhaImg from './img/teacher-4.png';
+import asaChenImg from './img/teacher-3.png';
+import trialImg from './img/woman in white tank top and white leggings bending her body.jpg';
+import shortImg from './img/woman performing yoga.jpg';
+import longImg from './img/woman in blue leggings and black tank top doing yoga.jpg';
+import ABClassroomImg from './img/blue swimming pool near green potted plant.jpg';
+import CDClassroomImg from './img/carl-barcelo-nqUHQkuVj3c-unsplash.jpg';
+import bathroomImg from './img/white ceramic sink near white ceramic sink.jpg';
+import rentImg from './img/woman in black sports bra and blue denim jeans doing yoga.jpg';
+import livingRoomImg from './img/sittin people beside table inside room.jpg';
+
 const App = () => {
   const lessons = [
     {
       name: '基礎 Basic',
       teacher: 'Carol Tang',
       info: '使用掛布懸掛在半空，進行哈達瑜珈體位法練習藉由地心引力的重力原理鍛鍊核心肌群，舒緩脊椎壓力訓練身體協調性，深層放鬆身體課堂裡老師會視同學狀況安排教導倒立動作對於不敢嘗試倒立的同學來說藉由掛布的支持與保護加上老師細心指導，讓同學能更快掌握',
-
       level: 'basic',
-      img: '../img/woman doing yoga beside wall.jpg',
+      img: basicImg,
       time: 60,
     },
     {
@@ -31,7 +52,7 @@ const App = () => {
       teacher: 'Kanae',
       info: '使用掛布懸掛在半空，進行哈達瑜珈體位法練習藉由地心引力的重力原理鍛鍊核心肌群，舒緩脊椎壓力訓練身體協調性，深層放鬆身體課堂裡老師會視同學狀況安排教導倒立動作對於不敢嘗試倒立的同學來說藉由掛布的支持與保護加上老師細心指導，讓同學能更快掌握',
       level: 'intermediate',
-      img: '../img/rawan-yasser-zQ1ypq-WHzQ-unsplash.jpg',
+      img: iyengarImg,
       time: 60,
     },
     {
@@ -39,14 +60,14 @@ const App = () => {
       teacher: 'Kanae',
       info: '使用掛布懸掛在半空，進行哈達瑜珈體位法練習藉由地心引力的重力原理鍛鍊核心肌群，舒緩脊椎壓力訓練身體協調性，深層放鬆身體課堂裡老師會視同學狀況安排教導倒立動作對於不敢嘗試倒立的同學來說藉由掛布的支持與保護加上老師細心指導，讓同學能更快掌握',
       level: 'advanced',
-      img: '../img/woman doing yoga.jpg',
+      img: ashtangaImg,
       time: 60,
     },
     {
       name: '雙人飛行 Arco Yoga',
       teacher: 'Kuzuha、Kanae',
       info: '使用掛布懸掛在半空，進行哈達瑜珈體位法練習藉由地心引力的重力原理鍛鍊核心肌群，舒緩脊椎壓力訓練身體協調性，深層放鬆身體課堂裡老師會視同學狀況安排教導倒立動作對於不敢嘗試倒立的同學來說藉由掛布的支持與保護加上老師細心指導，讓同學能更快掌握',
-      img: '../img/two woman dong fitness exercise.jpg',
+      img: arcoYogaImg,
       time: 60,
     },
     {
@@ -54,7 +75,7 @@ const App = () => {
       teacher: 'Kuzuha',
       info: '使用掛布懸掛在半空，進行哈達瑜珈體位法練習藉由地心引力的重力原理鍛鍊核心肌群，舒緩脊椎壓力訓練身體協調性，深層放鬆身體課堂裡老師會視同學狀況安排教導倒立動作對於不敢嘗試倒立的同學來說藉由掛布的支持與保護加上老師細心指導，讓同學能更快掌握',
       level: 'intermediate',
-      img: '../img/woman in black sports bra and black leggings doing yoga.jpg',
+      img: hathaImg,
       time: 60,
     },
     {
@@ -62,7 +83,7 @@ const App = () => {
       teacher: 'Kuzuha',
       info: '使用掛布懸掛在半空，進行哈達瑜珈體位法練習藉由地心引力的重力原理鍛鍊核心肌群，舒緩脊椎壓力訓練身體協調性，深層放鬆身體課堂裡老師會視同學狀況安排教導倒立動作對於不敢嘗試倒立的同學來說藉由掛布的支持與保護加上老師細心指導，讓同學能更快掌握',
       level: 'intermediate',
-      img: '../img/woman in white tank top and white leggings bending her body.jpg',
+      img: universalImg,
       time: 60,
     },
 
@@ -71,14 +92,14 @@ const App = () => {
       teacher: 'Asa Chen',
       info: '使用掛布懸掛在半空，進行哈達瑜珈體位法練習藉由地心引力的重力原理鍛鍊核心肌群，舒緩脊椎壓力訓練身體協調性，深層放鬆身體課堂裡老師會視同學狀況安排教導倒立動作對於不敢嘗試倒立的同學來說藉由掛布的支持與保護加上老師細心指導，讓同學能更快掌握',
       level: 'advanced',
-      img: '../img/woman in white tank top and white pants bending her body by the window.jpg',
+      img: yinYangImg,
       time: 60,
     },
     {
       name: '香氛 Aroma Yoga',
       teacher: 'Asa Chen',
       info: '使用掛布懸掛在半空，進行哈達瑜珈體位法練習藉由地心引力的重力原理鍛鍊核心肌群，舒緩脊椎壓力訓練身體協調性，深層放鬆身體課堂裡老師會視同學狀況安排教導倒立動作對於不敢嘗試倒立的同學來說藉由掛布的支持與保護加上老師細心指導，讓同學能更快掌握',
-      img: '../img/carl-barcelo-nqUHQkuVj3c-unsplash.jpg',
+      img: aromaYogaImg,
       time: 60,
     },
     {
@@ -86,14 +107,14 @@ const App = () => {
       monthFeature: true,
       teacher: 'Asa Chen',
       info: '使用掛布懸掛在半空，進行哈達瑜珈體位法練習藉由地心引力的重力原理鍛鍊核心肌群，舒緩脊椎壓力訓練身體協調性，深層放鬆身體課堂裡老師會視同學狀況安排教導倒立動作對於不敢嘗試倒立的同學來說藉由掛布的支持與保護加上老師細心指導，讓同學能更快掌握',
-      img: '../img/photo-1540206276207-3af25c08abc4.jpeg',
+      img: skyYogaImg,
       time: 60,
     },
   ];
   const teachers = [
     {
       name: 'Carol Tang',
-      img: '../img/teacher-1.png',
+      img: carolTangImg,
       teachingYears: 10,
       info: '“因為瑜珈讓我重新認識自己的身體，也讓我有了不一樣的人生。我希望能跟學生們分享瑜珈的好，讓大家能藉由瑜珈看見自己的內在與潛能，並將瑜珈自然的融入自己的生活中。”',
       exp: [
@@ -104,7 +125,7 @@ const App = () => {
     },
     {
       name: 'Kanae',
-      img: '../img/teacher-2.png',
+      img: kanaeImg,
       teachingYears: 3,
       info: '“希望每個人透過觀察，感受在在進入動作，連接陰與陽，內和外，呼和吸的方式來更了解瑜珈練習的觀點，每個​動作都帶著呼吸和順位，在平衡心理和生理的狀況下以安全和簡化的技巧進入瑜珈姿勢，帶著放鬆的心情，享受瑜珈和生命的喜悅，並樂在其​中。”',
       exp: [
@@ -115,7 +136,7 @@ const App = () => {
     },
     {
       name: 'Kuzuha',
-      img: '../img/teacher-4.png',
+      img: kuzuhaImg,
       teachingYears: 3,
       info: '“瑜珈是一種生活態度，學習平衡不強求，堅持不放棄，修煉心靈活在當下。”',
       exp: [
@@ -126,7 +147,7 @@ const App = () => {
     },
     {
       name: 'Asa Chen',
-      img: '../img/teacher-3.png',
+      img: asaChenImg,
       teachingYears: 3,
       info: '',
       exp: [
@@ -142,21 +163,21 @@ const App = () => {
       engName: 'trial',
       price: 450,
       info: '分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。',
-      img: '../img/woman in white tank top and white leggings bending her body.jpg',
+      img: trialImg,
     },
     {
       name: '短期體驗',
       engName: 'short',
       price: 1800,
       info: '分基礎、中級、高級可以選擇。想試著培養瑜珈習慣者可以選擇此方案。',
-      img: '../img/woman performing yoga.jpg',
+      img: shortImg,
     },
     {
       name: '長期體驗',
       engName: 'long',
       price: 5600,
       info: '分基礎、中級、高級可以選擇。有長期習慣做瑜伽者建議選擇此方案。',
-      img: '../img/woman in blue leggings and black tank top doing yoga.jpg',
+      img: longImg,
     },
   ];
   const socialMediaLinks = [
@@ -170,30 +191,31 @@ const App = () => {
       name: 'line',
     },
   ];
+
   const spaces = [
     {
       name: 'A、B 團體課教室',
-      img: '../../img/blue swimming pool near green potted plant.jpg',
+      img: ABClassroomImg,
       des: '教授課程：A-基礎、艾揚格、哈達、寰宇；B-雙人飛行、阿斯坦加、陰陽、香氛',
     },
     {
       name: 'C、D 個人訓練室',
-      img: '../../img/carl-barcelo-nqUHQkuVj3c-unsplash.jpg',
+      img: CDClassroomImg,
       des: '開放時間：每週一至週五 09:00~17:00',
     },
     {
       name: '淋浴間',
-      img: '../../img/white ceramic sink near white ceramic sink.jpg',
+      img: bathroomImg,
       des: '開放時間：每週一至週日 09:00~21:30',
     },
     {
       name: '器材出租',
-      img: '../../img/woman in black sports bra and blue denim jeans doing yoga.jpg',
+      img: rentImg,
       des: '有租借需求請至櫃檯登記',
     },
     {
       name: '交誼廳',
-      img: '../../img/sittin people beside table inside room.jpg',
+      img: livingRoomImg,
       des: '開放時間：每週一至週五 09:00~21:30',
     },
   ];
@@ -242,7 +264,7 @@ const App = () => {
         <Routes>
           ‘
           <Route
-            path='/'
+            path=''
             element={
               <Homepage
                 termsInfo={termsInfo}
@@ -288,7 +310,10 @@ const App = () => {
                 />
               }
             />
-            <Route path='form' element={<Form setStep={setStep} term={term} level={level}  />} />
+            <Route
+              path='form'
+              element={<Form setStep={setStep} term={term} level={level} />}
+            />
             <Route path='result' element={<Result setStep={setStep} />} />
           </Route>
           <Route path='/contact' element={<Contact setStep={setStep} />} />

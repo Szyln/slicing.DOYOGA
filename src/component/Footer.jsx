@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import doyogaLogoImg from '../img/DOYOGA-logo.png';
 const Footer = ({ socialMediaLinks }) => {
   return (
     <footer className='bg-primary text-white pt-6 pb-8 py-md-8'>
@@ -31,7 +31,7 @@ const Footer = ({ socialMediaLinks }) => {
         <div className='d-flex justify-content-between flex-wrap flex-md-nowrap'>
           <div className='mb-1 mb-md-0'>
             <a className='link-light' href='/'>
-              <img src="../../img/DOYOGA.png" alt="DOYOGA logo" className='logo-length py-1'/>
+              <img src={doyogaLogoImg} alt="DOYOGA logo" className='logo-length py-1'/>
             </a>
             <ul>
               <li>

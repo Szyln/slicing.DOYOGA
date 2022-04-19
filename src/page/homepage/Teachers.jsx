@@ -1,5 +1,6 @@
 import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
+import trainSceneImg from '../../img/photo-1540206276207-3af25c08abc4.jpeg';
 
 const Teachers = ({ teachers }) => {
   const teachersThree = teachers.filter((teacher, index) => {
@@ -11,7 +12,7 @@ const Teachers = ({ teachers }) => {
         <div className='row position-lg-relative'>
           <div className='col-lg-6 d-none d-lg-block'>
             <img
-              src='../img/photo-1540206276207-3af25c08abc4.jpeg'
+              src={trainSceneImg}
               alt='訓練場景'
               className='rounded-2 length-teacherSection-img'
             />

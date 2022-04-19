@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import doyogaLogoImg from '../img/DOYOGA-logo.png';
 
 const Nav = () => {
   
@@ -12,7 +13,7 @@ const Nav = () => {
         <div className="container">
           {/* LOGO */}
           <Link className="navbar-brand " to="/">
-            <img src="../../img/DOYOGA-logo.png" alt="DOYOGA logo" className="logo-length my-2"/>
+            <img src={doyogaLogoImg} alt="DOYOGA logo" className="logo-length my-2"/>
           </Link>
           {/* 收起來的按鈕 */}
           <button
