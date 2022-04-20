@@ -36,5 +36,5 @@ scss/*
 # 備註
 example/*
 
-# deploy
-dist/*
+# # deploy
+# dist/*
