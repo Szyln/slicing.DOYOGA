@@ -31,8 +31,8 @@ import asaChenImg from './img/teacher-3.png';
 import trialImg from './img/woman in white tank top and white leggings bending her body.jpg';
 import shortImg from './img/woman performing yoga.jpg';
 import longImg from './img/woman in blue leggings and black tank top doing yoga.jpg';
-import ABClassroomImg from './img/blue swimming pool near green potted plant.jpg';
-import CDClassroomImg from './img/carl-barcelo-nqUHQkuVj3c-unsplash.jpg';
+import abClassroomImg from './img/blue swimming pool near green potted plant.jpg';
+import cdClassroomImg from './img/carl-barcelo-nqUHQkuVj3c-unsplash.jpg';
 import bathroomImg from './img/white ceramic sink near white ceramic sink.jpg';
 import rentImg from './img/woman in black sports bra and blue denim jeans doing yoga.jpg';
 import livingRoomImg from './img/sittin people beside table inside room.jpg';
@@ -195,12 +195,12 @@ const App = () => {
   const spaces = [
     {
       name: 'A、B 團體課教室',
-      img: ABClassroomImg,
+      img: abClassroomImg,
       des: '教授課程：A-基礎、艾揚格、哈達、寰宇；B-雙人飛行、阿斯坦加、陰陽、香氛',
     },
     {
       name: 'C、D 個人訓練室',
-      img: CDClassroomImg,
+      img: cdClassroomImg,
       des: '開放時間：每週一至週五 09:00~17:00',
     },
     {
